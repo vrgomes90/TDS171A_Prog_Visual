@@ -18,7 +18,7 @@ namespace TDS171A_Diogo.Controllers
         // GET: Categories
         public ActionResult Index()
         {
-            return View(categoryList);
+            return View(categoryList.OrderBy(c => c.Name));
         }
     }
 }
