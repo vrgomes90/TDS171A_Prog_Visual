@@ -14,7 +14,7 @@ namespace TDS171A_Diogo
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
-                name: "Categories",
+                name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Categories", action = "Index", id = UrlParameter.Optional }
             );
