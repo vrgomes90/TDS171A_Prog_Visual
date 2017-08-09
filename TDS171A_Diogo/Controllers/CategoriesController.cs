@@ -18,7 +18,7 @@ namespace TDS171A_Diogo.Controllers
         // GET: Categories
         public ActionResult Index()
         {
-            return View();
+            return View(categoryList);
         }
     }
 }

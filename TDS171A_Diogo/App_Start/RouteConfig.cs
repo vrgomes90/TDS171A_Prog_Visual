@@ -16,7 +16,7 @@ namespace TDS171A_Diogo
             routes.MapRoute(
                 name: "Categories",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Categories", action = "Index", id = UrlParameter.Optional }
             );
         }
     }
