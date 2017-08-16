@@ -17,6 +17,8 @@ namespace TDS171A_Diogo
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Categories", action = "Index", id = UrlParameter.Optional }
+
+         
             );
         }
     }
